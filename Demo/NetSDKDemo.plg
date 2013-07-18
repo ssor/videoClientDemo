@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetSDKDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "Depend\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/NetSDKDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetSDKDemoDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSPAEA0.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NetSDKDemo.pdb" /machine:I386 /out:"Release/NetSDKDemo.exe" 
+.\Release\AddDeviceDlg.obj
+.\Release\AdvanceBtnPannel.obj
+.\Release\AlarmCtrlDlg.obj
+.\Release\AudioBroadcastDlg.obj
+.\Release\AutoMaintenance.obj
+.\Release\BSWndContainer.obj
+.\Release\ClientState.obj
+.\Release\ColorPannel.obj
+.\Release\ConfigAlarm.obj
+.\Release\ConfigAlarmAlarm.obj
+.\Release\ConfigAlarmBlind.obj
+.\Release\ConfigAlarmDisk.obj
+.\Release\ConfigAlarmMotion.obj
+.\Release\ConfigAlarmMotionArea.obj
+.\Release\ConfigAlarmMotionAreaBlock.obj
+.\Release\ConfigAlarmVlost.obj
+.\Release\ConfigChannel.obj
+.\Release\ConfigComm.obj
+.\Release\ConfigMainDlg.obj
+.\Release\ConfigNetwork.obj
+.\Release\ConfigRecord.obj
+.\Release\ConfigServer.obj
+.\Release\CycleChild.obj
+.\Release\CycleMonitor.obj
+.\Release\DDNS_QueryIP.obj
+.\Release\DeviceWorkState.obj
+.\Release\DevMgr.obj
+.\Release\DHExtPtzCtrl.obj
+.\Release\DHPtzMenu.obj
+.\Release\DiskControl.obj
+.\Release\DownloadByTime.obj
+.\Release\ExButton.obj
+.\Release\ExSliderCtrl.obj
+.\Release\font.obj
+.\Release\NetSDKDemo.obj
+.\Release\NetSDKDemoDlg.obj
+.\Release\NetUpgrade.obj
+.\Release\NormalBtnPannel.obj
+.\Release\PlayBackByTime.obj
+.\Release\PlayCtrlPannel.obj
+.\Release\PlayWnd.obj
+.\Release\PreviewParmsDlg.obj
+.\Release\PTZPannel.obj
+.\Release\RecordCtrlDlg.obj
+.\Release\RuntimeMsgPannel.obj
+.\Release\SaveDataPannel.obj
+.\Release\ScreenPannel.obj
+.\Release\SearchRecord.obj
+.\Release\SelectPannel.obj
+.\Release\setdeviceconfig.obj
+.\Release\SplitInfoDlg.obj
+.\Release\StdAfx.obj
+.\Release\SystemConfig.obj
+.\Release\TransCom.obj
+.\Release\User_AddGroup.obj
+.\Release\User_AddUser.obj
+.\Release\User_ModifyGroup.obj
+.\Release\User_ModifyPsw.obj
+.\Release\User_ModifyUser.obj
+.\Release\UserManage.obj
+.\Release\NetSDKDemo.res
+.\Depend\libmodel.lib
+.\Release\g_res.obj
+]
+Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp"
+<h3>Output Window</h3>
+Compiling...
+NetSDKDemoDlg.cpp
+Linking...
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp" with contents
+[
+/nologo /o"Release/NetSDKDemo.bsc" 
+.\Release\StdAfx.sbr
+.\Release\AddDeviceDlg.sbr
+.\Release\AdvanceBtnPannel.sbr
+.\Release\AlarmCtrlDlg.sbr
+.\Release\AudioBroadcastDlg.sbr
+.\Release\AutoMaintenance.sbr
+.\Release\BSWndContainer.sbr
+.\Release\ClientState.sbr
+.\Release\ColorPannel.sbr
+.\Release\ConfigAlarm.sbr
+.\Release\ConfigAlarmAlarm.sbr
+.\Release\ConfigAlarmBlind.sbr
+.\Release\ConfigAlarmDisk.sbr
+.\Release\ConfigAlarmMotion.sbr
+.\Release\ConfigAlarmMotionArea.sbr
+.\Release\ConfigAlarmMotionAreaBlock.sbr
+.\Release\ConfigAlarmVlost.sbr
+.\Release\ConfigChannel.sbr
+.\Release\ConfigComm.sbr
+.\Release\ConfigMainDlg.sbr
+.\Release\ConfigNetwork.sbr
+.\Release\ConfigRecord.sbr
+.\Release\ConfigServer.sbr
+.\Release\CycleChild.sbr
+.\Release\CycleMonitor.sbr
+.\Release\DDNS_QueryIP.sbr
+.\Release\DeviceWorkState.sbr
+.\Release\DevMgr.sbr
+.\Release\DHExtPtzCtrl.sbr
+.\Release\DHPtzMenu.sbr
+.\Release\DiskControl.sbr
+.\Release\DownloadByTime.sbr
+.\Release\ExButton.sbr
+.\Release\ExSliderCtrl.sbr
+.\Release\font.sbr
+.\Release\NetSDKDemo.sbr
+.\Release\NetSDKDemoDlg.sbr
+.\Release\NetUpgrade.sbr
+.\Release\NormalBtnPannel.sbr
+.\Release\PlayBackByTime.sbr
+.\Release\PlayCtrlPannel.sbr
+.\Release\PlayWnd.sbr
+.\Release\PreviewParmsDlg.sbr
+.\Release\PTZPannel.sbr
+.\Release\RecordCtrlDlg.sbr
+.\Release\RuntimeMsgPannel.sbr
+.\Release\SaveDataPannel.sbr
+.\Release\ScreenPannel.sbr
+.\Release\SearchRecord.sbr
+.\Release\SelectPannel.sbr
+.\Release\setdeviceconfig.sbr
+.\Release\SplitInfoDlg.sbr
+.\Release\SystemConfig.sbr
+.\Release\TransCom.sbr
+.\Release\User_AddGroup.sbr
+.\Release\User_AddUser.sbr
+.\Release\User_ModifyGroup.sbr
+.\Release\User_ModifyPsw.sbr
+.\Release\User_ModifyUser.sbr
+.\Release\UserManage.sbr
+.\Release\g_res.sbr]
+Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NetSDKDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
