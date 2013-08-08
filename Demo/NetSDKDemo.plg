@@ -6,13 +6,13 @@
 --------------------Configuration: NetSDKDemo - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA0.tmp" with contents
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP583C.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /I "Depend\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/NetSDKDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
 "C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetSDKDemoDlg.cpp"
 ]
-Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSPAEA0.tmp" 
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp" with contents
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP583C.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP583D.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/NetSDKDemo.pdb" /machine:I386 /out:"Release/NetSDKDemo.exe" 
 .\Release\AddDeviceDlg.obj
@@ -49,6 +49,7 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp" with cont
 .\Release\ExButton.obj
 .\Release\ExSliderCtrl.obj
 .\Release\font.obj
+.\Release\g_res.obj
 .\Release\NetSDKDemo.obj
 .\Release\NetSDKDemoDlg.obj
 .\Release\NetUpgrade.obj
@@ -77,14 +78,13 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp" with cont
 .\Release\UserManage.obj
 .\Release\NetSDKDemo.res
 .\Depend\libmodel.lib
-.\Release\g_res.obj
 ]
-Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSPAEA1.tmp"
+Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSP583D.tmp"
 <h3>Output Window</h3>
 Compiling...
 NetSDKDemoDlg.cpp
 Linking...
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp" with contents
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5CC1.tmp" with contents
 [
 /nologo /o"Release/NetSDKDemo.bsc" 
 .\Release\StdAfx.sbr
@@ -122,6 +122,7 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp" with cont
 .\Release\ExButton.sbr
 .\Release\ExSliderCtrl.sbr
 .\Release\font.sbr
+.\Release\g_res.sbr
 .\Release\NetSDKDemo.sbr
 .\Release\NetSDKDemoDlg.sbr
 .\Release\NetUpgrade.sbr
@@ -146,9 +147,8 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp" with cont
 .\Release\User_ModifyGroup.sbr
 .\Release\User_ModifyPsw.sbr
 .\Release\User_ModifyUser.sbr
-.\Release\UserManage.sbr
-.\Release\g_res.sbr]
-Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSPB25A.tmp"
+.\Release\UserManage.sbr]
+Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSP5CC1.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 

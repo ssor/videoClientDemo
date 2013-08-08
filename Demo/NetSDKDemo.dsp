@@ -44,7 +44,6 @@ RSC=rc.exe
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
 # ADD CPP /nologo /MD /W3 /GX /O2 /I "Depend\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR /Yu"stdafx.h" /FD /c
-# SUBTRACT CPP /Z<none>
 # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x804 /d "NDEBUG" /d "_AFXDLL"
@@ -71,7 +70,6 @@ LINK32=link.exe
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /GZ /c
 # ADD CPP /nologo /MDd /W3 /Gm /GX /ZI /I "Depend\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR /Yu"stdafx.h" /FD /GZ /c
-# SUBTRACT CPP /O<none>
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x804 /d "_DEBUG" /d "_AFXDLL"
@@ -227,6 +225,10 @@ SOURCE=.\ExSliderCtrl.cpp
 # Begin Source File
 
 SOURCE=.\font.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\g_res.cpp
 # End Source File
 # Begin Source File
 
@@ -479,6 +481,10 @@ SOURCE=.\font.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\g_res.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\Depend\libcom.h
 # End Source File
 # Begin Source File
@@ -628,11 +634,6 @@ SOURCE=.\Depend\libmodel.lib
 # End Group
 # End Target
 # End Project
-# Section NetSDKDemo : {E6877186-DFC4-4FF7-8B7C-B9EE76386619}
-# 	2:5:Class:CDHOCXSYSTEMSET
-# 	2:10:HeaderFile:dhocxsystemset.h
-# 	2:8:ImplFile:dhocxsystemset.cpp
-# End Section
 # Section NetSDKDemo : {BEF6E003-A874-101A-8BBA-00AA00300CAB}
 # 	2:5:Class:COleFont
 # 	2:10:HeaderFile:font.h
@@ -650,4 +651,9 @@ SOURCE=.\Depend\libmodel.lib
 # 	2:5:Class:CSetDeviceConfig
 # 	2:10:HeaderFile:setdeviceconfig.h
 # 	2:8:ImplFile:setdeviceconfig.cpp
+# End Section
+# Section NetSDKDemo : {E6877186-DFC4-4FF7-8B7C-B9EE76386619}
+# 	2:5:Class:CDHOCXSYSTEMSET
+# 	2:10:HeaderFile:dhocxsystemset.h
+# 	2:8:ImplFile:dhocxsystemset.cpp
 # End Section

@@ -3579,7 +3579,8 @@ void CNetSDKDemoDlg::ReceiveRealData(LONG lRealHandle, DWORD dwDataType, BYTE *p
 				file_buffer = (char*) malloc(64);
 				ZeroMemory(file_buffer,64);
 				int lt = time(NULL);
-			    sprintf(file_buffer,"./video/%s-%d.dav",cameraID,lt);
+			    //sprintf(file_buffer,"./video/%s-%d.dav",cameraID,lt);
+				sprintf(file_buffer,"%s\\%s-%d.dav", VIDEO_PATH, cameraID, lt);
 			}
 			//初始化要保存的文件
 			if(NULL == file){
@@ -3600,7 +3601,8 @@ void CNetSDKDemoDlg::ReceiveRealData(LONG lRealHandle, DWORD dwDataType, BYTE *p
 			   int lt = time(NULL);
 			   //sprintf(file_buffer,"./video/%d.dav",lt);
 			   //sprintf(file_buffer,"./video/%d-%d.dav",lRealHandle,lt);
-			   sprintf(file_buffer,"./video/%s-%d.dav",cameraID,lt);
+			   //sprintf(file_buffer,"./video/%s-%d.dav",cameraID,lt);
+			   sprintf(file_buffer,"%s\\%s-%d.dav", VIDEO_PATH, cameraID, lt);
 			   file = fopen(file_buffer,"wb");
 			   g_nFrameCount = 0;
 			}
