@@ -6,13 +6,79 @@
 --------------------Configuration: NetSDKDemo - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP583C.tmp" with contents
+Creating command line "rc.exe /l 0x804 /fo"Release/NetSDKDemo.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetSDKDemo.rc"" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP7EB8.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /I "Depend\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/NetSDKDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AddDeviceDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AdvanceBtnPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AlarmCtrlDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AudioBroadcastDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AutoMaintenance.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\BSWndContainer.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ClientState.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ColorPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarm.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmAlarm.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmBlind.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmDisk.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmMotion.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmMotionArea.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmMotionAreaBlock.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigAlarmVlost.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigChannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigComm.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigMainDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigNetwork.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigRecord.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ConfigServer.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\CycleChild.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\CycleMonitor.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DDNS_QueryIP.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DeviceWorkState.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DevMgr.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DHExtPtzCtrl.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DHPtzMenu.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DiskControl.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DownloadByTime.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ExButton.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ExSliderCtrl.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\font.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\g_res.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetSDKDemo.cpp"
 "C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetSDKDemoDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NetUpgrade.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\NormalBtnPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\PlayBackByTime.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\PlayCtrlPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\PlayWnd.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\PreviewParmsDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\PTZPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\RecordCtrlDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\RuntimeMsgPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\SaveDataPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\ScreenPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\SearchRecord.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\SelectPannel.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\setdeviceconfig.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\SplitInfoDlg.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\SystemConfig.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\TransCom.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\User_AddGroup.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\User_AddUser.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\User_ModifyGroup.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\User_ModifyPsw.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\User_ModifyUser.cpp"
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\UserManage.cpp"
 ]
-Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP583C.tmp" 
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP583D.tmp" with contents
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP7EB8.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP7EB9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "Depend\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/NetSDKDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP7EB9.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP7EBA.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/NetSDKDemo.pdb" /machine:I386 /out:"Release/NetSDKDemo.exe" 
 .\Release\AddDeviceDlg.obj
@@ -79,12 +145,82 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP583D.tmp" with cont
 .\Release\NetSDKDemo.res
 .\Depend\libmodel.lib
 ]
-Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSP583D.tmp"
+Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSP7EBA.tmp"
 <h3>Output Window</h3>
+Compiling resources...
 Compiling...
+StdAfx.cpp
+Compiling...
+AddDeviceDlg.cpp
+C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\AddDeviceDlg.cpp(166) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+AdvanceBtnPannel.cpp
+AlarmCtrlDlg.cpp
+AudioBroadcastDlg.cpp
+AutoMaintenance.cpp
+BSWndContainer.cpp
+ClientState.cpp
+ColorPannel.cpp
+ConfigAlarm.cpp
+ConfigAlarmAlarm.cpp
+ConfigAlarmBlind.cpp
+ConfigAlarmDisk.cpp
+ConfigAlarmMotion.cpp
+ConfigAlarmMotionArea.cpp
+ConfigAlarmMotionAreaBlock.cpp
+ConfigAlarmVlost.cpp
+ConfigChannel.cpp
+ConfigComm.cpp
+ConfigMainDlg.cpp
+ConfigNetwork.cpp
+Generating Code...
+Compiling...
+ConfigRecord.cpp
+ConfigServer.cpp
+CycleChild.cpp
+CycleMonitor.cpp
+DDNS_QueryIP.cpp
+DeviceWorkState.cpp
+DevMgr.cpp
+DHExtPtzCtrl.cpp
+DHPtzMenu.cpp
+DiskControl.cpp
+DownloadByTime.cpp
+C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DownloadByTime.cpp(90) : warning C4101: 'nDev' : unreferenced local variable
+C:\Users\ssor\Desktop\ClientSDK_V4.2.0.2.R.101124\Demo\DownloadByTime.cpp(92) : warning C4101: 'nPos' : unreferenced local variable
+ExButton.cpp
+ExSliderCtrl.cpp
+font.cpp
+g_res.cpp
+NetSDKDemo.cpp
 NetSDKDemoDlg.cpp
+NetUpgrade.cpp
+NormalBtnPannel.cpp
+PlayBackByTime.cpp
+Generating Code...
+Compiling...
+PlayCtrlPannel.cpp
+PlayWnd.cpp
+PreviewParmsDlg.cpp
+PTZPannel.cpp
+RecordCtrlDlg.cpp
+RuntimeMsgPannel.cpp
+SaveDataPannel.cpp
+ScreenPannel.cpp
+SearchRecord.cpp
+SelectPannel.cpp
+setdeviceconfig.cpp
+SplitInfoDlg.cpp
+SystemConfig.cpp
+TransCom.cpp
+User_AddGroup.cpp
+User_AddUser.cpp
+User_ModifyGroup.cpp
+User_ModifyPsw.cpp
+User_ModifyUser.cpp
+UserManage.cpp
+Generating Code...
 Linking...
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5CC1.tmp" with contents
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPB526.tmp" with contents
 [
 /nologo /o"Release/NetSDKDemo.bsc" 
 .\Release\StdAfx.sbr
@@ -148,7 +284,7 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5CC1.tmp" with cont
 .\Release\User_ModifyPsw.sbr
 .\Release\User_ModifyUser.sbr
 .\Release\UserManage.sbr]
-Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSP5CC1.tmp"
+Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSPB526.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
